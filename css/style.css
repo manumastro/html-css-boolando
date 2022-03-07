@@ -22,7 +22,7 @@ body{
 }
 
 .container.row{
-  margin-bottom: 110px;
+  margin-bottom: 60px;
 }
 
 .col{
@@ -53,12 +53,24 @@ body{
 p.brand{
   font-size: 14px;
 }
+
 p.type{
   font-size: 18px;
   font-weight: 700;
   text-transform:uppercase;
 }
 
+.hearth{
+  position: absolute;
+  font-size: 30px;
+  right: 0;
+  top: 20px;
+  width: 46px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: white;
+}
 
 .col.col-left{
   width: 32.33%;
@@ -86,24 +98,48 @@ p.type{
   background-image: url('../assets/img/img/img/1.webp');
 }
 
+.image.img-1:hover{
+  background-image: url('../assets/img/img/img/1b.webp');
+}
+
 .image.img-2{
   background-image: url('../assets/img/img/img/2.webp');
+}
+
+.image.img-2:hover{
+  background-image: url('../assets/img/img/img/2b.webp');
 }
 
 .image.img-3{
   background-image: url('../assets/img/img/img/3.webp');
 }
 
+.image.img-3:hover{
+  background-image: url('../assets/img/img/img/3b.webp');
+}
+
 .image.img-4{
   background-image: url('../assets/img/img/img/4.webp');
+}
+
+.image.img-4:hover{
+  background-image: url('../assets/img/img/img/4b.webp');
 }
 
 .image.img-5{
   background-image: url('../assets/img/img/img/5.webp');
 }
 
+.image.img-5:hover{
+  background-image: url('../assets/img/img/img/5b.webp');
+}
+
 .image.img-6{
   background-image: url('../assets/img/img/img/6.webp');
+}
+
+.image.img-6:hover{
+  background-image: url('../assets/img/img/img/6b.webp');
 }
 
 .image.img-6 .eco{
