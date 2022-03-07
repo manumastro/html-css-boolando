@@ -21,17 +21,43 @@ body{
   clear: both;
 }
 
-.container.row{
-  margin-bottom: 60px;
-}
-
 .col{
   float: left;
 }
+.card{
+  position: relative;
+  margin-bottom: 50px;
+}
 
-.discount{
-  position:absolute;
-  bottom: 24px;
+.col.col-left{
+  width: 33%;
+}
+
+.col.col-center{
+  width: 33%;
+}
+
+.col.col-right{
+  width: 33%;
+}
+
+img{
+  height: 700px;
+  width: 480px;
+}
+.card .eco{
+  position: absolute;
+  bottom: 80px;
+  left: 45px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px;
+  background-color: green;
+  color: white;
+}
+.card .sconto{
+  position: absolute;
+  bottom: 80px;
   font-weight: 600;
   font-size: 14px;
   padding: 5px;
@@ -39,28 +65,30 @@ body{
   color: white;
 }
 
-.eco{
+.card .hearth{
   position: absolute;
-  bottom: 24px;
-  left: 50px;
-  font-weight: 600;
-  font-size: 14px;
-  padding: 5px;
-  background-color: green;
-  color: white;
+  font-size: 30px;
+  right: 12px;
+  top: 20px;
+  width: 46px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: white;
 }
 
-p.brand{
+.card p.brand{
   font-size: 14px;
+  margin-top: 10px;
 }
 
-p.type{
+.card p.type{
   font-size: 18px;
   font-weight: 700;
   text-transform:uppercase;
 }
 
-p.price{
+.card p.price{
   font-size: 14px;
   font-weight: 700;
   color: red;
@@ -71,91 +99,26 @@ p.price{
   text-decoration: line-through;
 }
 
-.hearth{
-  position: absolute;
-  font-size: 30px;
-  right: 0;
-  top: 20px;
-  width: 46px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  background-color: white;
+.card.first:hover img{
+  content: url('../assets/img/img/img/1b.webp');
 }
 
-
-
-.col.col-left{
-  width: 32.33%;
-  margin-right: 1.5%;
+.card.second:hover img{
+  content: url('../assets/img/img/img/2b.webp');
 }
 
-.col.col-center{
-  width: 32.33%;
-  margin-right: 1.5%;
+.card.third:hover img{
+  content: url('../assets/img/img/img/3b.webp');
 }
 
-.col.col-right{
-  width: 32.33%;
+.card.fourth:hover img{
+  content: url('../assets/img/img/img/4b.webp');
 }
 
-.col .image{
-  position: relative;
-  height: 700px;
-  margin-bottom: 10px;
-  background-size: cover;
-  background-position: center;
+.card.fifth:hover img{
+  content: url('../assets/img/img/img/5b.webp');
 }
 
-.image.img-1{
-  background-image: url('../assets/img/img/img/1.webp');
+.card.sixth:hover img{
+  content: url('../assets/img/img/img/6b.webp');
 }
-
-.image.img-1:hover{
-  background-image: url('../assets/img/img/img/1b.webp');
-}
-
-.image.img-2{
-  background-image: url('../assets/img/img/img/2.webp');
-}
-
-.image.img-2:hover{
-  background-image: url('../assets/img/img/img/2b.webp');
-}
-
-.image.img-3{
-  background-image: url('../assets/img/img/img/3.webp');
-}
-
-.image.img-3:hover{
-  background-image: url('../assets/img/img/img/3b.webp');
-}
-
-.image.img-4{
-  background-image: url('../assets/img/img/img/4.webp');
-}
-
-.image.img-4:hover{
-  background-image: url('../assets/img/img/img/4b.webp');
-}
-
-.image.img-5{
-  background-image: url('../assets/img/img/img/5.webp');
-}
-
-.image.img-5:hover{
-  background-image: url('../assets/img/img/img/5b.webp');
-}
-
-.image.img-6{
-  background-image: url('../assets/img/img/img/6.webp');
-}
-
-.image.img-6:hover{
-  background-image: url('../assets/img/img/img/6b.webp');
-}
-
-.image.img-6 .eco{
-  left: 0;
-}
-
