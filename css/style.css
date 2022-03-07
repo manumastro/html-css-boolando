@@ -60,6 +60,17 @@ p.type{
   text-transform:uppercase;
 }
 
+p.price{
+  font-size: 14px;
+  font-weight: 700;
+  color: red;
+}
+
+.sale{
+  color: black;
+  text-decoration: line-through;
+}
+
 .hearth{
   position: absolute;
   font-size: 30px;
@@ -71,6 +82,8 @@ p.type{
   line-height: 50px;
   background-color: white;
 }
+
+
 
 .col.col-left{
   width: 32.33%;
