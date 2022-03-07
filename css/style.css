@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .container{
@@ -21,10 +21,23 @@ body{
   clear: both;
 }
 
+.container.row-one{
+  margin-bottom: 110px;
+}
+
 .col{
   float: left;
 }
 
+.discount{
+  position:absolute;
+  bottom: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px;
+  background-color: #eb0037;
+  color: white;
+}
 
 .col.col-left{
   width: 32.33%;
@@ -41,6 +54,7 @@ body{
 }
 
 .col .image{
+  position: relative;
   height: 700px;
   background-size: cover;
   background-position: center;
